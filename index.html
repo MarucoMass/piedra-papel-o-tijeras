@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Piedra, Papel o Tijeras</title>
+</head>
+<body>
+    <main>
+        <h1 id="titulo">Piedra, Papel o Tijeras</h1>
+        <!-- seccion botones -->
+        <section id="btns">
+            <button  id="piedra">✊</button>
+            <button  id="papel">✋</button>
+            <button  id="tijera">✌</button>
+        </section>
+        <!--seccion jugador  -->
+        <!-- <section id="boxes"> -->
+            <section class="box" id="jugador">
+                <h2>Vos</h2>
+                <span id="jugador__score" class="box__score">0</span>
+                <span id="jugador__jugada" class="box__jugada"></span>
+            </section>
+            <!-- seccion computadora -->
+            <section class="box" id="computadora">
+                <h2>Computadora</h2>
+                <span id="computadora__score" class="box__score">0</span>
+                <span id="computadora__jugada" class="box__jugada"></span>
+            </section>
+        <!-- </section> -->
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

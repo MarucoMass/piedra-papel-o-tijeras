@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+body{
+    background-color: lightblue;
+}
+main{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        "titulo titulo titulo titulo"
+        ". btns btns ."
+        ". jugador computadora ."
+    ;
+    gap: 20px;
+    align-content: flex-start;
+}
+
+#titulo{
+    grid-area: titulo;
+    text-align: center;
+    font-size: 4.5rem;
+}
+#btns{
+    grid-area: btns;
+    text-align: center;
+}
+#btns > button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 5rem;
+    margin: 0 20px;
+    transition: 0.5s;
+}#btns > button:hover{
+    transform: scale(1.2);
+}
+
+#jugador{
+    grid-area: jugador;
+}
+#computadora{
+    grid-area: computadora;
+}
+.box{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.3),
+                10px 10px 20px rgba(0, 0, 0, 0.1),
+                inset  -10px -10px 20px rgba(255, 255, 255, 0.3),
+                inset  10px 10px 20px rgba(0, 0, 0, 0.1)  
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 2.5rem;
+}
+/* puntaje */
+.box__score{
+    font-size: 2.2rem;
+    color: #333;
+}
+.box__jugada{
+    font-size: 10rem;
+}
+/* clase del ganador */
+.winner{
+    opacity: 1;
+}
+/* clase del perdedor */
+.loser{
+    font-size: 10rem;
+    opacity: 50%;
+}
