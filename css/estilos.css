@@ -100,10 +100,10 @@ h2{
         /* max-height: 200px; */
     }
     #titulo{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     #btns > button{
-        font-size: 4rem;
+        font-size: 3.7rem;
         margin: 0 10px;
     }
     /* #jugador{
@@ -115,14 +115,14 @@ h2{
     .box{
         min-width: 130px;
         /* margin-bottom: 0px; */
-        padding: 10px 0;
+        padding: 15px 10px;
     }
     h2{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     /* puntaje */
     .box__score{
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: #333;
     }
     .box__jugada{
