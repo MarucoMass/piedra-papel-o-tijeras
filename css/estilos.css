@@ -94,7 +94,7 @@ h2{
     opacity: 50%;
 }
 
-@media (max-width: 321px){
+@media (max-width: 900px){
     main{
         grid-gap: 20px;
         /* max-height: 200px; */
@@ -103,7 +103,7 @@ h2{
         font-size: 2.5rem;
     }
     #btns > button{
-        font-size: 3rem;
+        font-size: 4rem;
         margin: 0 10px;
     }
     /* #jugador{
@@ -126,6 +126,6 @@ h2{
         color: #333;
     }
     .box__jugada{
-        font-size: 5.2rem;
+        font-size: 5.5rem;
     }
 }
